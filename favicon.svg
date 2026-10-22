@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="240" height="240" role="img" aria-labelledby="title" data-grid="24" data-plate="11 1.3" data-ring="9.25 0.8 7.7 0.45" data-rows="9.45 9 15;12 7.6 16.4;14.55 9 15" data-row-height="1.5">
+  <title id="title">Placardex</title>
+  <desc>The Placardex mark: a hazmat placard on a 24-unit grid, centre (12, 12). Plate: a square-on-point of half-diagonal 11, corners rounded 1.3. Inner border: the ring between half-diagonals 9.25 (corners 0.8) and 7.7 (corners 0.45). Three rows 1.5 high at y = 9.45, 12, 14.55. Written by assets/generate-assets.py --write-logo from the data- numbers on this element; never edited by hand.</desc>
+  <path id="plate" fill="#C01F28" d="M11.0808 1.9192A1.3 1.3 0 0 1 12.9192 1.9192L22.0808 11.0808A1.3 1.3 0 0 1 22.0808 12.9192L12.9192 22.0808A1.3 1.3 0 0 1 11.0808 22.0808L1.9192 12.9192A1.3 1.3 0 0 1 1.9192 11.0808Z"/>
+  <path id="ring" fill="#FFFFFF" fill-rule="evenodd" d="M11.4343 3.3157A0.8 0.8 0 0 1 12.5657 3.3157L20.6843 11.4343A0.8 0.8 0 0 1 20.6843 12.5657L12.5657 20.6843A0.8 0.8 0 0 1 11.4343 20.6843L3.3157 12.5657A0.8 0.8 0 0 1 3.3157 11.4343ZM11.6818 4.6182A0.45 0.45 0 0 1 12.3182 4.6182L19.3818 11.6818A0.45 0.45 0 0 1 19.3818 12.3182L12.3182 19.3818A0.45 0.45 0 0 1 11.6818 19.3818L4.6182 12.3182A0.45 0.45 0 0 1 4.6182 11.6818Z"/>
+  <g id="rows" fill="#FFFFFF">
+    <rect x="9" y="8.7" width="6" height="1.5" rx="0.75"/>
+    <rect x="7.6" y="11.25" width="8.8" height="1.5" rx="0.75"/>
+    <rect x="9" y="13.8" width="6" height="1.5" rx="0.75"/>
+  </g>
+</svg>

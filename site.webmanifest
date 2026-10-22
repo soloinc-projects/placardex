@@ -1,0 +1,15 @@
+{
+  "name": "Placardex",
+  "short_name": "Placardex",
+  "description": "The U.S. Hazardous Materials Table, 49 CFR §172.101, and the §177.848 segregation table, offline.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "browser",
+  "background_color": "#FFFFFF",
+  "theme_color": "#C01F28",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

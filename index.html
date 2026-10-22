@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Placardex – Hazmat table and UN number lookup, offline</title>
+  <meta name="description" content="Placardex: the U.S. Hazardous Materials Table, 49 CFR §172.101, by UN number or shipping name, every column, plus the §177.848 segregation table. Offline.">
+  <link rel="canonical" href="https://soloinc-projects.github.io/placardex/">
+  <meta name="theme-color" content="#C01F28">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="assets/site.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Placardex">
+  <meta property="og:title" content="Placardex – Hazmat table and UN number lookup, offline">
+  <meta property="og:description" content="Every column of the 49 CFR §172.101 entry by UN number or shipping name, and every pair on a load in the §177.848 segregation table. Offline, no account.">
+  <meta property="og:url" content="https://soloinc-projects.github.io/placardex/">
+  <meta property="og:image" content="https://soloinc-projects.github.io/placardex/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="The Placardex mark, a white placard with a red inner border and three dark rows, beside the name Placardex and the words Hazmat table lookup, on red.">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Placardex",
+    "description": "An offline reference to the U.S. Hazardous Materials Table, 49 CFR §172.101, with Appendix A and Appendix B, searchable by UN number or proper shipping name, and Load check against the segregation table of 49 CFR §177.848.",
+    "applicationCategory": "ReferenceApplication",
+    "operatingSystem": "iOS 26 or later, iPadOS 26 or later, Android 8.0 or later",
+    "url": "https://soloinc-projects.github.io/placardex/",
+    "image": "https://soloinc-projects.github.io/placardex/og-image.png",
+    "screenshot": [
+      "https://soloinc-projects.github.io/placardex/screenshots/01-results.png",
+      "https://soloinc-projects.github.io/placardex/screenshots/03-entry.png",
+      "https://soloinc-projects.github.io/placardex/screenshots/04-pair.png"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "price": "4.99",
+      "priceCurrency": "USD"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "8086 LLC",
+      "email": "support@8086.llc"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./" aria-label="Placardex, home">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path class="mark-plate" d="M11.0808 1.9192A1.3 1.3 0 0 1 12.9192 1.9192L22.0808 11.0808A1.3 1.3 0 0 1 22.0808 12.9192L12.9192 22.0808A1.3 1.3 0 0 1 11.0808 22.0808L1.9192 12.9192A1.3 1.3 0 0 1 1.9192 11.0808Z"/>
+          <path fill="#FFFFFF" fill-rule="evenodd" d="M11.4343 3.3157A0.8 0.8 0 0 1 12.5657 3.3157L20.6843 11.4343A0.8 0.8 0 0 1 20.6843 12.5657L12.5657 20.6843A0.8 0.8 0 0 1 11.4343 20.6843L3.3157 12.5657A0.8 0.8 0 0 1 3.3157 11.4343ZM11.6818 4.6182A0.45 0.45 0 0 1 12.3182 4.6182L19.3818 11.6818A0.45 0.45 0 0 1 19.3818 12.3182L12.3182 19.3818A0.45 0.45 0 0 1 11.6818 19.3818L4.6182 12.3182A0.45 0.45 0 0 1 4.6182 11.6818Z"/>
+          <g fill="#FFFFFF"><rect x="9" y="8.7" width="6" height="1.5" rx="0.75"/><rect x="7.6" y="11.25" width="8.8" height="1.5" rx="0.75"/><rect x="9" y="13.8" width="6" height="1.5" rx="0.75"/></g>
+        </svg>
+        <span class="wordmark">Placardex</span>
+      </a>
+      <nav class="site-nav" aria-label="Pages">
+        <a href="support/">Support</a>
+        <a href="privacy/">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap">
+      <p class="gov-notice"><strong>Not a government app.</strong> Placardex is an independent app made by 8086 LLC. It is not affiliated with or endorsed by the U.S. Department of Transportation, its Pipeline and Hazardous Materials Safety Administration (PHMSA), or any government agency. The regulation it shows is U.S. government text; its sources are listed below.</p>
+
+      <div class="hero">
+        <h1>The Hazardous Materials Table, offline.</h1>
+        <p class="lede">Type the four digits from the placard or the papers, or part of the shipping name, and see every column of the 49&nbsp;CFR §172.101 entry, with its reportable quantity and marine-pollutant listing. Add the materials on a load and see every pair in the §177.848 segregation table, in the regulation’s own words.</p>
+        <ul class="cta" aria-label="Where to get Placardex">
+          <li><span class="store">App Store</span><span class="when">Coming soon for iPhone and iPad</span></li>
+          <li><span class="store">Google Play</span><span class="when">Coming soon for Android</span></li>
+        </ul>
+        <p class="secondary">$4.99 in the U.S., paid once. No subscription, no in-app purchases, no ads.</p>
+      </div>
+    </div>
+
+    <section aria-labelledby="proof">
+      <div class="wrap">
+        <h2 id="proof">Made to be checked</h2>
+        <ul class="cards">
+          <li>
+            <h3>Dated on every entry</h3>
+            <p>Every entry and every load check show the edition of the 49&nbsp;CFR text Placardex carries and the date its data was synced. Compare them with the official text on GovInfo.</p>
+          </li>
+          <li>
+            <h3>Every column of the entry</h3>
+            <p>From symbols to vessel stowage, by plain name and column number, with the Appendix&nbsp;A reportable quantity and the Appendix&nbsp;B marine-pollutant listing at the top.</p>
+          </li>
+          <li>
+            <h3>Offline, with nothing collected</h3>
+            <p>Search, entries and Load check work in Airplane Mode. No account, no ads, no tracking, and no data collected.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-labelledby="screens">
+      <div class="wrap">
+        <h2 id="screens">A search, an entry and a pair</h2>
+        <div class="shots">
+          <figure>
+            <img src="screenshots/01-results.png" width="460" height="1000" loading="lazy" alt="Placardex on iPhone: the search 1993 lists six entries, among them NA1993 Diesel fuel and UN1993 Flammable liquids, n.o.s., each with its class, packing groups and label, with filter chips for class 3, combustible liquid and packing group, and the edition line at the foot.">
+            <figcaption>Search by UN number or shipping name</figcaption>
+          </figure>
+          <figure>
+            <img src="screenshots/03-entry.png" width="460" height="1000" loading="lazy" alt="The entry for UN1017 Chlorine: Division 2.3, labels 2.3, 5.1 and 8, inhalation hazard Zone B, no packing group; reportable quantity 10 lb (4.54 kg), listed in Appendix B, forbidden on passenger aircraft or rail car and on cargo aircraft only, vessel stowage D.">
+            <figcaption>Every column, with RQ and Appendix B</figcaption>
+          </figure>
+          <figure>
+            <img src="screenshots/04-pair.png" width="460" height="1000" loading="lazy" alt="The pair Gasoline with Chlorine: letter O, section 177.848(e)(3), with the regulation's words for O, and the table cell, row Poisonous gas Zone B 2.3 by column 3.">
+            <figcaption>The table’s letter, in its own words</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="what">
+      <div class="wrap">
+        <h2 id="what">What it does</h2>
+        <ul>
+          <li><strong>One search.</strong> “1203”, “UN1203”, “NA1993” or part of a proper shipping name, with results as you type. Narrow them by class or division, by packing group, or to a listing in Appendix&nbsp;A (RQ) or Appendix&nbsp;B (MP).</li>
+          <li><strong>Every column.</strong> Symbols, proper shipping name, hazard class or division, identification number, packing group, label codes, special provision codes, packaging, quantity limits and vessel stowage. An entry with several packing groups shows each value for every one until you choose the one on your papers.</li>
+          <li><strong>Load check.</strong> Add materials by number, name or class, and every pair is checked against the §177.848(d) table at once, worst first: the letter X, O or a blank, its row and column, and the regulation’s words. On Search, tap a class to see its row of the table.</li>
+          <li><strong>Built for today’s phones.</strong> Liquid Glass on iOS&nbsp;26 and later; Material&nbsp;3 Expressive on Android. Dark mode, large text, VoiceOver and TalkBack. Two panes on iPad, tablets and unfolded foldables.</li>
+          <li><strong>From the system.</strong> Find a material in Spotlight, or look up a UN number with Siri and Shortcuts. On Android, long-press the icon for Search and Load check.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-labelledby="reference">
+      <div class="wrap">
+        <h2 id="reference">Reference only</h2>
+        <p class="quote">Reference only — verify against the official 49&nbsp;CFR text and your company’s own HazMat training/certification before shipping.</p>
+        <p>Placardex shows the regulation’s text. It does not classify a shipment or approve it, and it does not give emergency response guidance.</p>
+      </div>
+    </section>
+
+    <section aria-labelledby="sources">
+      <div class="wrap">
+        <h2 id="sources">Sources</h2>
+        <p>Placardex takes its table from the Code of Federal Regulations, Title&nbsp;49, in the annual edition the U.S. Government Publishing Office publishes on GovInfo. U.S. government works carry no copyright (17&nbsp;U.S.C. §105).</p>
+        <ul class="sources">
+          <li>49&nbsp;CFR §172.101, Purpose and use of hazardous materials table, with Appendix&nbsp;A (List of Hazardous Substances and Reportable Quantities) and Appendix&nbsp;B (List of Marine Pollutants): <a href="https://www.govinfo.gov/content/pkg/CFR-2025-title49-vol2/pdf/CFR-2025-title49-vol2-sec172-101.pdf">govinfo.gov/content/pkg/CFR-2025-title49-vol2/pdf/CFR-2025-title49-vol2-sec172-101.pdf</a></li>
+          <li>49&nbsp;CFR §177.848, Segregation of hazardous materials: <a href="https://www.govinfo.gov/content/pkg/CFR-2025-title49-vol2/pdf/CFR-2025-title49-vol2-sec177-848.pdf">govinfo.gov/content/pkg/CFR-2025-title49-vol2/pdf/CFR-2025-title49-vol2-sec177-848.pdf</a></li>
+          <li>The volume both are in, Title&nbsp;49, Parts 100 to 177: <a href="https://www.govinfo.gov/app/details/CFR-2025-title49-vol2">govinfo.gov/app/details/CFR-2025-title49-vol2</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-labelledby="privacy">
+      <div class="wrap">
+        <h2 id="privacy">Privacy</h2>
+        <p>Placardex collects no data. Your recent lookups and your load stay on your device. <a href="privacy/">Read the privacy policy</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav aria-label="Site">
+        <a href="support/">Support</a>
+        <a href="privacy/">Privacy</a>
+        <a href="terms/">Terms of use</a>
+      </nav>
+      <p>Placardex is not a government app and is not affiliated with or endorsed by any government agency. © 2026 8086 LLC.</p>
+    </div>
+  </footer>
+</body>
+</html>
