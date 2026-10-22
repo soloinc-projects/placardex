@@ -170,7 +170,7 @@ code, .code {
   border: 1px solid var(--control);
   border-radius: 12px;
   background: var(--surface-raised);
-  min-width: 15rem;
+  flex: 0 1 17rem;
 }
 .cta .store { display: block; font-weight: 700; }
 .cta .when { display: block; color: var(--text-secondary); font-size: 0.95rem; }
@@ -204,7 +204,7 @@ section { padding: 2rem 0; border-top: 1px solid var(--separator); }
 .shots img {
   display: block;
   width: 100%;
-  max-width: 230px;
+  max-width: 250px;
   height: auto;
   margin: 0 auto;
   border-radius: 22px;
@@ -214,6 +214,8 @@ section { padding: 2rem 0; border-top: 1px solid var(--separator); }
   margin-top: 0.6rem;
   text-align: center;
   font-weight: 600;
+  font-size: 0.97rem;
+  text-wrap: balance;
 }
 
 .quote {
